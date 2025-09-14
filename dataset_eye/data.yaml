@@ -1,0 +1,13 @@
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 5
+names: ['Cataract', 'Chalazion', 'Healthy-Eye', 'Keratitis', 'Squint']
+
+roboflow:
+  workspace: shojeb
+  project: eyediseasedataset
+  version: 1
+  license: Public Domain
+  url: https://universe.roboflow.com/shojeb/eyediseasedataset/dataset/1
